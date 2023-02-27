@@ -1,0 +1,84 @@
+html,
+body {
+  background-color: #232020;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  color: #ff7315;
+  text-align: center;
+  font-size: 3em;
+}
+
+.container {
+  height: 80%;
+  width: 80%;
+}
+
+.box {
+  height: 30%;
+}
+
+.title {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.instructions {
+  height: 70%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.instruction {
+  height: 50px;
+  width: 50%;
+  text-align: center;
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  width: 500px;
+}
+
+.text-danger {
+  color: white;
+}
+
+.plus {
+  background-color: #f67280;
+}
+
+.moins {
+  background-color: #ffa372;
+}
+
+.fini {
+  background-color: #0c9463;
+}
